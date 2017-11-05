@@ -57,6 +57,27 @@ title: "Navigation"
 </ul>
 @endcomponent
 
+## Underline
+
+@component('_partials.code-sample', ['class' => 'bg-grey-lighter p-8'])
+<nav class="bg-white px-8 pt-2 shadow-md">
+    <div class="-mb-px flex">
+        <a class="text-teal-dark border-b-2 border-teal-dark uppercase tracking-wide font-bold text-xs py-3 mr-8" href="#">
+            Home
+        </a>
+        <a class="text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-xs py-3 mr-8" href="#">
+            Products
+        </a>
+        <a class="text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-xs py-3 mr-8" href="#">
+            Discounts
+        </a>
+        <a class="text-grey-dark border-b-2 border-transparent uppercase tracking-wide font-bold text-xs py-3" href="#">
+            Customers
+        </a>
+    </div>
+</nav>
+@endcomponent
+
 ## Pills
 
 @component('_partials.code-sample')
