@@ -56,6 +56,16 @@ var colors = {
   'grey-lightest': '#fafcfc',
   'white': '#ffffff',
 
+  'black': 'hsl(198, 16%, 16%)',
+  'grey-darkest': 'hsl(199, 15%, 25%)',
+  'grey-darker': 'hsl(201, 13%, 40%)',
+  'grey-dark': 'hsl(201, 10%, 49%)',
+  'grey': 'hsl(202, 14%, 66%)',
+  'grey-light': 'hsl(200, 25%, 88%)',
+  'grey-lighter': 'hsl(200, 33%, 96%)',
+  'grey-lightest': 'hsl(180, 25%, 98%)',
+  'white': 'hsl(0, 0%, 100%)',
+
   'red-darkest': '#420806',
   'red-darker': '#6a1b19',
   'red-dark': '#cc1f1a',
@@ -63,6 +73,14 @@ var colors = {
   'red-light': '#ef5753',
   'red-lighter': '#f9acaa',
   'red-lightest': '#fcebea',
+
+  'red-darkest': 'hsl(2, 83%, 14%)',
+  'red-darker': 'hsl(1, 62%, 26%)',
+  'red-dark': 'hsl(2, 77%, 45%)',
+  'red': 'hsl(2, 76%, 54%)',
+  'red-light': 'hsl(2, 83%, 63%)',
+  'red-lighter': 'hsl(2, 87%, 82%)',
+  'red-lightest': 'hsl(3, 75%, 95%)',
 
   'orange-darkest': '#542605',
   'orange-darker': '#7f4012',
@@ -72,6 +90,14 @@ var colors = {
   'orange-lighter': '#fcd9b6',
   'orange-lightest': '#fff5eb',
 
+  'orange-darkest': 'hsl(25, 89%, 17%)',
+  'orange-darker': 'hsl(25, 75%, 28%)',
+  'orange-dark': 'hsl(27, 75%, 50%)',
+  'orange': 'hsl(30, 91%, 61%)',
+  'orange-light': 'hsl(29, 94%, 68%)',
+  'orange-lighter': 'hsl(30, 92%, 85%)',
+  'orange-lightest': 'hsl(30, 100%, 96%)',
+
   'yellow-darkest': '#453411',
   'yellow-darker': '#684f1d',
   'yellow-dark': '#f2d024',
@@ -79,6 +105,14 @@ var colors = {
   'yellow-light': '#fff382',
   'yellow-lighter': '#fff9c2',
   'yellow-lightest': '#fcfbeb',
+
+  'yellow-darkest': 'hsl(40, 60%, 17%)',
+  'yellow-darker': 'hsl(40, 56%, 26%)',
+  'yellow-dark': 'hsl(50, 89%, 55%)',
+  'yellow': 'hsl(54, 100%, 65%)',
+  'yellow-light': 'hsl(54, 100%, 75%)',
+  'yellow-lighter': 'hsl(54, 100%, 88%)',
+  'yellow-lightest': 'hsl(56, 74%, 95%)',
 
   'green-darkest': '#032d19',
   'green-darker': '#0b4228',
@@ -88,6 +122,14 @@ var colors = {
   'green-lighter': '#a2f5bf',
   'green-lightest': '#e3fcec',
 
+  'green-darkest': 'hsl(151, 88%, 9%)',
+  'green-darker': 'hsl(152, 71%, 15%)',
+  'green-dark': 'hsl(146, 67%, 37%)',
+  'green': 'hsl(145, 55%, 49%)',
+  'green-light': 'hsl(145, 63%, 58%)',
+  'green-lighter': 'hsl(141, 81%, 80%)',
+  'green-lightest': 'hsl(142, 81%, 94%)',
+
   'teal-darkest': '#0d3331',
   'teal-darker': '#174e4b',
   'teal-dark': '#38a89d',
@@ -95,6 +137,14 @@ var colors = {
   'teal-light': '#64d5ca',
   'teal-lighter': '#a0f0ed',
   'teal-lightest': '#e8fffe',
+
+  'teal-darkest': 'hsl(177, 59%, 13%)',
+  'teal-darker': 'hsl(177, 54%, 20%)',
+  'teal-dark': 'hsl(174, 50%, 44%)',
+  'teal': 'hsl(174, 48%, 53%)',
+  'teal-light': 'hsl(174, 57%, 61%)',
+  'teal-lighter': 'hsl(178, 73%, 78%)',
+  'teal-lightest': 'hsl(177, 100%, 95%)',
 
   'blue-darkest': '#05233b',
   'blue-darker': '#103d60',
@@ -104,6 +154,14 @@ var colors = {
   'blue-lighter': '#bcdefa',
   'blue-lightest': '#eff8ff',
 
+  'blue-darkest': 'hsl(207, 84%, 13%)',
+  'blue-darker': 'hsl(206, 71%, 22%)',
+  'blue-dark': 'hsl(207, 66%, 45%)',
+  'blue': 'hsl(207, 71%, 53%)',
+  'blue-light': 'hsl(207, 76%, 67%)',
+  'blue-lighter': 'hsl(207, 86%, 86%)',
+  'blue-lightest': 'hsl(206, 100%, 97%)',
+
   'indigo-darkest': '#191e38',
   'indigo-darker': '#2f365f',
   'indigo-dark': '#5661b3',
@@ -111,6 +169,14 @@ var colors = {
   'indigo-light': '#7886d7',
   'indigo-lighter': '#b2b7ff',
   'indigo-lightest': '#e6e8ff',
+
+  'indigo-darkest': 'hsl(230, 38%, 16%)',
+  'indigo-darker': 'hsl(231, 34%, 28%)',
+  'indigo-dark': 'hsl(233, 38%, 52%)',
+  'indigo': 'hsl(231, 51%, 60%)',
+  'indigo-light': 'hsl(231, 54%, 66%)',
+  'indigo-lighter': 'hsl(236, 100%, 85%)',
+  'indigo-lightest': 'hsl(235, 100%, 95%)',
 
   'purple-darkest': '#1f133f',
   'purple-darker': '#352465',
@@ -120,6 +186,14 @@ var colors = {
   'purple-lighter': '#d6bbfc',
   'purple-lightest': '#f3ebff',
 
+  'purple-darkest': 'hsl(256, 54%, 16%)',
+  'purple-darker': 'hsl(256, 47%, 27%)',
+  'purple-dark': 'hsl(261, 58%, 55%)',
+  'purple': 'hsl(264, 69%, 63%)',
+  'purple-light': 'hsl(265, 72%, 69%)',
+  'purple-lighter': 'hsl(265, 92%, 86%)',
+  'purple-lightest': 'hsl(264, 100%, 96%)',
+
   'pink-darkest': '#45051e',
   'pink-darker': '#72173a',
   'pink-dark': '#eb5286',
@@ -127,6 +201,14 @@ var colors = {
   'pink-light': '#fa7ea8',
   'pink-lighter': '#ffbbca',
   'pink-lightest': '#ffebef',
+
+  'pink-darkest': 'hsl(337, 86%, 15%)',
+  'pink-darker': 'hsl(337, 66%, 27%)',
+  'pink-dark': 'hsl(340, 79%, 62%)',
+  'pink': 'hsl(340, 88%, 70%)',
+  'pink-light': 'hsl(340, 93%, 74%)',
+  'pink-lighter': 'hsl(347, 100%, 87%)',
+  'pink-lightest': 'hsl(348, 100%, 96%)',
 }
 
 module.exports = {
