@@ -20,6 +20,12 @@ export default function() {
     'table-cell': {
       display: 'table-cell',
     },
+    flex: {
+      display: 'flex',
+    },
+    'inline-flex': {
+      display: 'inline-flex',
+    },
     hidden: {
       display: 'none',
     },

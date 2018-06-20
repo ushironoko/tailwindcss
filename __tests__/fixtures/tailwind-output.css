@@ -2255,16 +2255,16 @@ button,
   display: table-cell;
 }
 
-.hidden {
-  display: none;
-}
-
 .flex {
   display: flex;
 }
 
 .inline-flex {
   display: inline-flex;
+}
+
+.hidden {
+  display: none;
 }
 
 .flex-row {
@@ -6160,16 +6160,16 @@ button,
     display: table-cell;
   }
 
-  .sm\:hidden {
-    display: none;
-  }
-
   .sm\:flex {
     display: flex;
   }
 
   .sm\:inline-flex {
     display: inline-flex;
+  }
+
+  .sm\:hidden {
+    display: none;
   }
 
   .sm\:flex-row {
@@ -10058,16 +10058,16 @@ button,
     display: table-cell;
   }
 
-  .md\:hidden {
-    display: none;
-  }
-
   .md\:flex {
     display: flex;
   }
 
   .md\:inline-flex {
     display: inline-flex;
+  }
+
+  .md\:hidden {
+    display: none;
   }
 
   .md\:flex-row {
@@ -13956,16 +13956,16 @@ button,
     display: table-cell;
   }
 
-  .lg\:hidden {
-    display: none;
-  }
-
   .lg\:flex {
     display: flex;
   }
 
   .lg\:inline-flex {
     display: inline-flex;
+  }
+
+  .lg\:hidden {
+    display: none;
   }
 
   .lg\:flex-row {
@@ -17854,16 +17854,16 @@ button,
     display: table-cell;
   }
 
-  .xl\:hidden {
-    display: none;
-  }
-
   .xl\:flex {
     display: flex;
   }
 
   .xl\:inline-flex {
     display: inline-flex;
+  }
+
+  .xl\:hidden {
+    display: none;
   }
 
   .xl\:flex-row {

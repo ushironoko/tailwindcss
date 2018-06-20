@@ -2,12 +2,6 @@ import defineClasses from '../util/defineClasses'
 
 export default function() {
   return defineClasses({
-    flex: {
-      display: 'flex',
-    },
-    'inline-flex': {
-      display: 'inline-flex',
-    },
     'flex-row': {
       'flex-direction': 'row',
     },
